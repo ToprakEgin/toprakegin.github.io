@@ -86,6 +86,26 @@
             padding: 100px 20px;
         }
 
+        @media screen and (max-width: 800px) {
+            .nav {
+                left: -100%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .nav a {
+                font-size: 2rem;
+                margin: 30px 0;
+            }
+
+            .nav .copyright {
+                position: absolute;
+                bottom: 20px;
+                width: 100%;
+                left: 0;
+            }
+        }
+
         .nav.active {
             left: 0;
         }
